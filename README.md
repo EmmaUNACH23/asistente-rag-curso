@@ -34,8 +34,7 @@ pip install -r requirements.txt
 
 ## 4. Documentos e indexado
 Copia tus PDF, TXT o MD a `documentos/` y ejecuta `python indexar.py`
-(o usa el botón ↻ de la interfaz). La carpeta `db/` incluida ya está indexada y es
-compatible: **no hace falta reindexar** para empezar.
+(o usa el botón ↻ de la interfaz). La carpeta `db/` no se incluye en el repositorio: se genera al indexar, antes de la primera pregunta.
 
 ## 5. Usar
 ```bash
