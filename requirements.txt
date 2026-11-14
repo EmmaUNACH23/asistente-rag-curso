@@ -1,0 +1,7 @@
+# Instala antes torch en su versión CPU (ver README); evita descargar ~2 GB de CUDA.
+pypdf
+sentence-transformers
+chromadb
+ollama>=0.5.1      # necesario para el parámetro think= de DeepSeek-R1
+# PyGObject (GTK) NO se instala con pip: viene del sistema (python3-gi), ver README.
+# gradio           # opcional: solo si quieres seguir usando la interfaz web app.py
